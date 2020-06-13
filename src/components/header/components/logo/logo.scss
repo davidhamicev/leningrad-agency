@@ -1,0 +1,19 @@
+.logo {
+	display: block;
+	width: 280px;
+	height: 102px;
+	text-align: center;
+	line-height: 102px;
+	background-color: #dddddd;
+	color: #555555;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+	.logo {
+		margin: 0 auto;
+	}
+}

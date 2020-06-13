@@ -1,0 +1,44 @@
+.shedule {
+	display: flex;
+	justify-content: center;
+	padding-top: 24px;
+	
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__title {
+		font-size: 20px;
+		font-weight: 600;
+		text-align: center;
+		color: #555555;
+		text-transform: uppercase;
+	}
+
+	&__plan {
+		width: 240px;
+		margin-top: 34px;
+	}
+
+	&__row {
+		display: flex;
+		padding-top: 9px;
+		padding-bottom: 9px;
+
+		&:nth-child(odd) {
+			background-color: #eeeeee;
+		}
+	}
+
+	&__cell {
+		flex-basis: 50%;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: normal;
+		text-align: center;
+		color: #555555;
+		text-transform: uppercase;
+	}
+}
